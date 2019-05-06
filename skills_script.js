@@ -30,3 +30,10 @@ function trinasPage (el) {
 	document.location.href = "https://senseisilva.github.io/hyper8/index.html";
 } 
 
+function studentPage(el) { 
+	document.location.href = "https://ashleygonzalez9.github.io/studentwebsitepage/student_websites.html ";
+} 
+
+function skillsPage(el) { 
+	document.location.href = "https://ashleygonzalez9.github.io/studentwebsitepage/student_websites.html ";
+} 
