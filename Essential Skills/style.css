@@ -1,0 +1,394 @@
+/* Make sure you specify a "height: 100vh", "width: 100vw", and "margin: 0" for all your pages */
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	display: block;
+}
+
+/* You should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+
+.pointer {
+	cursor: pointer;
+} 
+
+.invisible { 
+	display:none;
+	visibility: hidden; 
+} 
+
+p { 
+	font-family:  fantasy;
+	font-size: 50px;
+	text-align:center;
+	color: #000000;
+	margin:0;
+} 
+p2 { 
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 15px;
+	text-align:center;
+	color: #000000;
+	margin: 2;
+} 
+
+
+
+
+h1{
+	font-family: Impact, Charcoal, sans-serif;
+	text-align:center;
+	color: #000000;
+} 
+
+p6{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 15px;
+	text-align:center;
+	color: #000000;
+}
+
+.grow {
+	transition: all .1s ease-in-out;
+}
+.grow:hover { 
+transform: scale(1.2);
+} 
+
+.bottom-rectangle {
+	height: 140%;
+	width:100%;
+	display:flex;
+	
+} 
+
+
+
+.left-side {
+	height: 120%;
+	width: calc(100%/3);
+	display:block;
+} 
+
+.middle-side {
+	height: 120%;
+	width: calc(100%/3);
+	background-color: #FFD2C9;
+	
+	
+} 
+
+.about { 
+	height: calc(100%/3);
+} 
+
+.right-side {
+	height: 120%;
+	width: calc(100%/3);
+} 
+
+.top-row {
+	height: 8%;
+	width:100%;
+	display: flex;
+	position:fixed;
+	
+} 
+
+.first { 
+height: 100%;
+width:25%;
+} 
+
+
+.second { 
+height: 100%;
+width:25%;
+} 
+
+
+.third { 
+height: 100%;
+width:25%;
+} 
+
+.fourth { 
+height: 100%;
+width:25%;
+} 
+
+.middle-row {
+	height: 10%;
+	width:100%;
+	background-color: #D3C1F3;
+	display: flex;
+	
+} 
+
+.left-image { 
+	height: 100%;
+	width: calc(100%/3);
+	margin-top: 8;
+	
+} 
+
+.text { 
+	height: 100%;
+	width: calc(100%/3);
+} 
+
+.right-image { 
+	height: 100%;
+	width: calc(100%/3);
+		margin-top: 8;
+	
+} 
+
+.trinas {
+	display:block;
+	margin:50px;
+} 
+
+.leahs {
+	display:block;
+	margin:50px;
+} 
+
+
+.edwards {
+	display:block;
+	margin:50px;
+} 
+
+
+.koby {
+	display:block;
+	margin:50px;
+} 
+
+.malakhyes {
+	display:block;
+	margin:50px;
+} 
+
+
+.alejandro {
+	display:block;
+	margin:50px;
+} 
+ 
+
+
+
+.description {
+	border: 1px solid black;
+	margin-bottom:1;
+	
+} 
+
+.empty{
+	height: 100%;
+	width: 10%;
+	background-color: #4B0082;
+}
+.nav-content{
+	height: 100%;
+	width: 80%;
+	background-color: black;
+}
+
+
+nav {
+	font-family: monospace;
+	height: 100%;
+}
+
+ul {
+  background: darkorange;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+li {
+	color: #fff;
+  background: #6601C6;
+	display: block;
+	float: left;
+	position: relative;
+	text-decoration: none;
+  transition-duration: 0.5s;
+  width: 25%;
+  height: 100%;
+}
+  
+li a {
+  color: #fff;
+}
+
+li:hover {
+	background: grey;
+	cursor: pointer;
+}
+
+ul li ul {
+	background: #6601C6;
+	visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+	position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+	left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+	clear: both;
+  width: 100%;
+}
+
+/*
+ul {
+	list-style-type:none;
+	overflow:hidden;
+	padding: 0;
+	position:fixed;
+	top: 0;
+	width: 25%;
+	height: 12%;
+
+} 
+
+li{ 
+	float:left;
+} 
+
+li a {
+	display:flex;
+	border:2px black solid;
+	background-color: #ffffff;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration: none;
+	font-weight: bold;
+	width:100%
+
+} 
+
+li a:hover{ 
+	width: 100%
+} 
+
+*/
+.darkpurple { 
+	background-color: #4B0082;
+} 
+	
+.brightpurple { 
+	background-color: #c940ff;;
+} 
+
+	
+.purple { 
+	background-color: #b97ed9;
+} 
+.lightpurple {
+	background-color: #E4CBF2;
+}
+
+.lightpurple2 {
+	background-color: #bfb1ff;
+} 
+
+.lightpurple3 {
+	background-color: #eae1eb;
+} 
+
+.grey { 
+	background-color:  #BFB6B9;
+} 
+.greypurple { 
+	background-color: #D5DCF3;
+} 
+
+.brown { 
+	background-color:  #968F92;
+} 
+
+.white { 
+	background-color: #ffffff;
+} 
+
+
+.pink { 
+	background-color: #ffc0ea;
+} 
+
+
+.red {
+	#990000;
+}
+.blue {
+	 #b4ceed;
+}
+
+.lightblue { 
+	#C0D9FC;
+} 
+.yellow { 
+	: #fffb30;
+} 
+
+.pink {
+	: #ffc0ea;
+}
+
+.green { 
+	: #d9ffba;
+} 
+
+.orange { 
+   : #ffe3ba;
+} 
+
+.white { 
+	font: #ffffff;
+} 
+
+
+.grey { 
+	background-color: #D8D7DF;
+} 
+
+.lightgrey { 
+	background-color:#E8E7E8;
+	
+
+/* Use this class on the PARENT of whatever you are trying to center; remember that the PARENT tells the CHILD what to do! */
+/* NOTE: Centering content only works when the display property is "flex"! */
+.center-content {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Use this class on your image to restrict the size so it stays completely within it's parent div */
+.restrict-img-size {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.stretch-img-size {
+	height: 75%;
+	width: 75%;
+}
