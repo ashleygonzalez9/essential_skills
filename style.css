@@ -25,7 +25,7 @@ p {
 	margin:0;
 } 
 p2 { 
-	font-family:Tahoma, Geneva, sans-serif;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 	font-size: 15px;
 	text-align:center;
 	color: #000000;
@@ -39,6 +39,19 @@ h1{
 	font-family: Impact, Charcoal, sans-serif;
 	text-align:center;
 	color: #000000;
+	font-size:50px;
+} 
+
+h3 { 
+	font-size: 250%;
+	font-family: Impact, Charcoal, sans-serif;
+	margin-top: -5;
+} 
+
+
+h4 { 
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	font-size:14px;
 } 
 
 p6{
@@ -56,36 +69,44 @@ transform: scale(1.2);
 } 
 
 .bottom-rectangle {
-	height: 140%;
+	height: 70%;
 	width:100%;
 	display:flex;
 	
 } 
 
+.top-body { 
+	height:12%;
+	display: flex;
+} 
+
+.about { 
+	height: calc(100%/3);
+	width:70%;
+	margin-top: 2%;
+} 
+
+.about-text{ 
+	width: 50%;
+	margin-right: 10%;
+	
+} 
 
 
 .left-side {
 	height: 120%;
-	width: calc(100%/3);
+	width: 50%;
 	display:block;
 } 
 
 .middle-side {
 	height: 120%;
-	width: calc(100%/3);
+	width: 50%;
 	background-color: #FFD2C9;
 	
 	
 } 
 
-.about { 
-	height: calc(100%/3);
-} 
-
-.right-side {
-	height: 120%;
-	width: calc(100%/3);
-} 
 
 .top-row {
 	height: 8%;
@@ -118,7 +139,7 @@ width:25%;
 } 
 
 .middle-row {
-	height: 10%;
+	height: 14%;
 	width:100%;
 	background-color: #D3C1F3;
 	display: flex;
@@ -128,7 +149,7 @@ width:25%;
 .left-image { 
 	height: 100%;
 	width: calc(100%/3);
-	margin-top: 8;
+	margin-top: 15;
 	
 } 
 
@@ -140,7 +161,7 @@ width:25%;
 .right-image { 
 	height: 100%;
 	width: calc(100%/3);
-		margin-top: 8;
+		margin-top: 15;
 	
 } 
 
@@ -214,7 +235,7 @@ ul {
 
 li {
 	color: #fff;
-  background: #6601C6;
+  background: #4B0082;
 	display: block;
 	float: left;
 	position: relative;
@@ -226,7 +247,11 @@ li {
   
 li a {
   color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 }
+
 
 li:hover {
 	background: grey;
@@ -234,7 +259,7 @@ li:hover {
 }
 
 ul li ul {
-	background: #6601C6;
+	background: #4B0082;
 	visibility: hidden;
   opacity: 0;
   min-width: 5rem;

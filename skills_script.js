@@ -38,3 +38,11 @@ function studentPage(el) {
 function skillsPage(el) { 
 	document.location.href = "https://ashleygonzalez9.github.io/essential_skills/Essential_Skills.html# ";
 } 
+
+function escapePage (el) { 
+	document.location.href = "https://docs.google.com/document/d/1cvuh0Cqh_3Ud9LKuqwgoekutlegN9I2Cjq_jbgbuuIw/edit";
+} 
+
+function robotPage (el) { 
+	document.location.href = "https://docs.google.com/document/d/1jkwqFXIjVttC_23BFMZSgnLrqdQ3CAhcAiwxTdBhKg0/edit";
+} 
